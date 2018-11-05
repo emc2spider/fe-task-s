@@ -1,8 +1,9 @@
 <div class="jumbotron">
   <h1>Gecko-O-Meter</h1>
   <canvas id="gauge"></canvas>
+  <div ng-bind="main.gauge.value + ' ' + main.gauge.unit"></div>
 </div>
 
-<div class="row marketing">
+<div class="button-section">
   <button ng-click="main.loadData()">Reload Gauge</button>
 </div>
