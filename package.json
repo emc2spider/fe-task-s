@@ -39,8 +39,5 @@
   },
   "scripts": {
     "test": "karma start test/karma.conf.js"
-  },
-  "dependencies": {
-    "angularjs-gauge": "^2.2.0"
   }
 }
